@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url("./images/coffee.jpg");
+    background-color: #cccccc;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Andada Pro', serif;
+    text-align: center;
+}
+
+header #hello{
+    padding: 10px;
+    color: white;
+    background-color: pink;
+    position: block fixed;    
+}
+
+#form form {
+    padding: 20px;
+    border: white;
+}
+
+#picture {
+    padding: 10px;
+}
+
+#picture img, #picture a {
+    border-radius: 50%;
+    color:white;
+    text-decoration: none;
+}
+
+#picture a img {
+    border: solid white 10px;
+    padding: 10px;
+}
+
+fieldset {
+    border: 10px solid transparent; 
+    border-color: white; 
+    box-sizing: border-box; 
+    grid-area: 1 / 1; 
+    padding: 5px; 
+    width: inherit;
+}
+
+#button input[type="submit"], #button input[type="reset"]  {
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Andada Pro', serif;
+    font-size: 20px;
+
+}
+
+footer h2{
+    padding: 10px;
+    color: white;
+    background-color: pink;
+    position: block fixed;    
+}
